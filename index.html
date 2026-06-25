@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🎮PinkiGames3D🎮 | Mis Proyectos</title>
-    <!-- Cargamos los iconos de FontAwesome -->
+    <title>PinkiGames3D | Mis Proyectos</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         body { 
@@ -85,17 +84,17 @@
             transform: translateY(-3px); 
         }
 
-        /* Efectos HOVER para las Redes Sociales */
-        .discord:hover { background-color: #5865f2; border-color: #5865f2; box-shadow: 0px 5px 15px rgba(88, 101, 242, 0.4); }
-        .youtube:hover { background-color: #ff0000; border-color: #ff0000; box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.4); }
-        .bluesky:hover { background-color: #0285ff; border-color: #0285ff; box-shadow: 0px 5px 15px rgba(2, 133, 255, 0.4); }
-
-        /* Iconos personalizados en SVG para los botones de las consolas */
+        /* Iconos personalizados en SVG para los botones */
         .btn-icon {
             width: 24px;
             height: 24px;
             fill: #ffffff;
         }
+
+        /* Efectos HOVER para las Redes Sociales */
+        .discord:hover { background-color: #5865f2; border-color: #5865f2; box-shadow: 0px 5px 15px rgba(88, 101, 242, 0.4); }
+        .youtube:hover { background-color: #ff0000; border-color: #ff0000; box-shadow: 0px 5px 15px rgba(255, 0, 0, 0.4); }
+        .bluesky:hover { background-color: #0285ff; border-color: #0285ff; box-shadow: 0px 5px 15px rgba(2, 133, 255, 0.4); }
 
         /* Efectos HOVER para los botones de repositorios de las consolas */
         .ps5-btn:hover { 
@@ -113,7 +112,6 @@
 <body>
     <div class="container">
         
-        <!-- Título Principal -->
         <div class="title-container">
             <svg class="xbox-pad" viewBox="0 0 24 24"><path d="M21.73 7.6ca3.42 3.42 0 0 0-3-.87l-2.07.41a8.41 8.41 0 0 0-9.32 0l-2.07-.41a3.42 3.42 0 0 0-3 .87A3.59 3.59 0 0 0 1.25 10.5l.81 5.72a3.7 3.7 0 0 0 3.65 3.18h.09a3.7 3.7 0 0 0 2.87-1.37L10.3 16a4.27 4.27 0 0 1 3.4 0l1.63 2.06a3.71 3.71 0 0 0 3 1.37h.09a3.7 3.7 0 0 0 3.65-3.18l.81-5.72a3.59 3.59 0 0 0-1.15-2.93ZM7.5 11.5A1.25 1.25 0 1 1 8.75 10.25 1.25 1.25 0 0 1 7.5 11.5Zm1.75 4H8.5v.75a.5.5 0 0 1-1 0V15.5h-.75a.5.5 0 0 1 0-1H7.5v-.75a.5.5 0 0 1 1 0v.75h.75a.5.5 0 0 1 0 1Zm6.5-3.5a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75Zm1 1.75a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75Zm0-3.5a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75Zm1 1.75a.75.75 0 1 1 .75-.75.75.75 0 0 1-.75.75Zm-1.25 3A1.25 1.25 0 1 1 17.75 14a1.25 1.25 0 0 1-1.25 1.25Z"/></svg>
             <h1>🎮PinkiGames3D🎮</h1>
@@ -121,7 +119,6 @@
         </div>
         <p class="subtitle">¡Bienvenido a mi espacio gamer!</p>
 
-        <!-- SECCIÓN: MIS REDES -->
         <div class="section-title">Mis Redes</div>
         <a href="https://discord.com" target="_blank" class="social-btn discord">
             <i class="fab fa-discord"></i> Discord
@@ -129,20 +126,21 @@
         <a href="https://youtube.com" target="_blank" class="social-btn youtube">
             <i class="fab fa-youtube"></i> YouTube
         </a>
+        
         <a href="https://bsky.app" target="_blank" class="social-btn bluesky">
-            <i class="fa-brands fa-bluesky"></i> Bluesky
+            <svg class="btn-icon" viewBox="0 0 512 512">
+                <path d="M111.8 62.2C170.2 105.9 233 194.7 256 242.4c23-47.6 85.8-136.4 144.2-180.2c42.1-31.6 111.8-55.4 111.8 14.3c0 14.1-1.6 82.1-10.7 122.9c-14.7 66-50.7 114.6-118.5 134.1c68 20.3 110 75.3 120.9 148.9c5.2 35.1 8.3 84.7 8.3 93.3c0 62.7-65.7 49-110.1 15.6c-59.2-44.6-121-137.1-145.9-184.2c-24.9 47.1-86.7 139.6-145.9 184.2C64.3 483.5 0 497.1 0 434.5c0-8.6 3-58.2 8.3-93.3c10.9-73.6 52.9-128.6 120.9-148.9c-67.8-19.5-103.8-68.1-118.5-134.1C1.6 118.6 0 50.6 0 36.5C0-23.2 69.7 .6 111.8 62.2z"/>
+            </svg>
+            Bluesky
         </a>
 
-        <!-- SECCIÓN: REPOSITORIOS / PROYECTOS -->
         <div class="section-title">Proyectos GitHub</div>
 
-        <!-- Botón Repositorio PS5 -->
         <a href="https://github.com" target="_blank" class="social-btn ps5-btn">
             <svg class="btn-icon" viewBox="0 0 24 24"><path d="M11.66 17.06c-1.39 0-3.05-.22-4.52-.63v1.8c1.37.45 3.03.68 4.62.68 4.3 0 6.64-1.63 6.64-4.21 0-3.41-4.04-3.69-5.94-4.14-1.57-.37-2.73-.64-2.73-1.63 0-.89.87-1.37 2.37-1.37 1.41 0 2.87.21 4.14.63V6.43c-1.3.4-2.75-.6-4.13-.6-3.83 0-6 1.63-6 4.14 0 3.25 3.93 3.59 5.86 4.02 1.71.38 2.83.64 2.83 1.73.01.99-.92 1.34-2.14 1.34z"/></svg>
             Repositorio PS5
         </a>
 
-        <!-- Botón Repositorio Nintendo Switch -->
         <a href="https://github.com" target="_blank" class="social-btn switch-btn">
             <svg class="btn-icon" viewBox="0 0 24 24"><path d="M7.74 2A5.74 5.74 0 0 0 2 7.74v8.52A5.74 5.74 0 0 0 7.74 22h1.61V2H7.74zM5.32 9.68a1.61 1.61 0 1 1 0-3.22 1.61 1.61 0 0 1 0 3.22zm9.33-7.68V22h1.61A5.74 5.74 0 0 0 22 16.26V7.74A5.74 5.74 0 0 0 16.26 2h-1.61zm4.03 12.1a1.61 1.61 0 1 1 0-3.22 1.61 1.61 0 0 1 0 3.22z"/></svg>
             Repositorio Switch
